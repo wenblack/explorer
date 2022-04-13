@@ -1,27 +1,28 @@
-*{
-  margin:0
+* {
+  margin: 0;
 }
-body{
-  font-family: 'JetBrains Mono', monospace;
-  margin:0;
-  background: #2C2B3D;
-  color: #FFFFFF;
-  width:100vw;
+body {
+  font-family: "JetBrains Mono", monospace;
+  margin: 0;
+  background: #2c2b3d;
+  color: #ffffff;
+  max-width: 100vw;
   padding-left: 99px;
   padding-right: 99px;
-  
 }
-nav,ul , main{
-  display:flex;
-  align-items:center;
+nav,
+ul,
+main {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-nav{
-  margin-top:71px;
-  margin-bottom:101px
+nav {
+  margin-top: 71px;
+  margin-bottom: 101px;
 }
 ul {
-  gap:64px;
+  gap: 64px;
 }
 ul li {
   list-style: none;
@@ -30,57 +31,55 @@ ul li {
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  
 }
-main{
-  margin-bottom:101px
+main {
+  margin-bottom: 101px;
 }
-h1{
+h1 {
   font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
 }
-footer{
-  text-align:center
+footer {
+  text-align: center;
 }
-#line{
+#line {
   width: 568px;
-  border: solid 1px #00BFA6;
-  margin:auto;
-  margin-bottom:27px
+  border: solid 1px #00bfa6;
+  margin: auto;
+  margin-bottom: 27px;
 }
 
 #locker {
-  position:fixed;
-  left:0;
-  bottom:0;
-  margin:20px;
-  margin-bottom: 20
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
 }
-span{
-  color: #00BFA6;
+span {
+  color: #00bfa6;
 }
 .subtitle {
- font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
 
-text-align: center;
+  text-align: center;
 
-color: #C2C2C2;
+  color: #c2c2c2;
 }
 a {
-  color: #FFFFFF;
-  text-decoration:none
+  color: #ffffff;
+  text-decoration: none;
 }
-.info{
-  margin-bottom: 27px
+.info {
+  margin-bottom: 27px;
 }
-#hero-img{
-  margin-right:82px;
+#hero-img {
+  margin-right: 82px;
 }
