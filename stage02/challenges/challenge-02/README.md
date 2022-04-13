@@ -12,5 +12,6 @@ Tente se desafiar e não olhar a resposta mas, caso apareça alguma dificuldade,
 
 Para facilitar, vamos deixar [**aqui**](https://explorer-stage02.vercel.app/) o link do projeto em si e [**aqui**](https://www.figma.com/file/fAvYZz4dPV5MfhL77XkqkD/Explorer---Stage-01) o link do Figma.
 
+[**Resultado**](https://wenblack.github.io/explorer/stage02/challenges/challenge-02/index.html)
 
 Boa sorte e boooooora codar! 🚀
