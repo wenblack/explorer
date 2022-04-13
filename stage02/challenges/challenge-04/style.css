@@ -7,7 +7,8 @@ body{
   background: #2C2B3D;
   color: #FFFFFF;
   width:100vw;
-  padding: 0 99px
+  padding-left: 99px;
+  padding-right: 99px;
   
 }
 nav,ul , main{
