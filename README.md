@@ -43,8 +43,8 @@
 
 
 
-- [Lista de Projetos - Projects List](https://github.com/wenblack/explorer/tree/master/stage02/Projects)
-- [Desafios(Challenges)](https://github.com/wenblack/explorer/tree/master/stage02/challenges)
+- [Lista de Projetos - Projects List](https://github.com/wenblack/explorer/tree/master/code/Projects)
+- [Desafios(Challenges)](https://github.com/wenblack/explorer/tree/master/code/tests)
 
 
 ## 📝 License
