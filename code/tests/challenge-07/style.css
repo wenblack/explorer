@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-text: "Palanquin", sans-serif;
+  --font-h1: "Staatliches", cursive;
+  --background-body: #eff1ff;
+  --background-aside: #cbc0d3;
+  --color-h1: #ffffff;
+  --color-p: #23053a;
+  --color-span: #4a4e69;
+  --fontsize-body: 2.4rem;
+  --fontsize-h1: 4.8rem;
+  --img-size: 32rem;
+}
+body {
+  background: var(--background-body);
+  font-size: var(--fontsize-body);
+  font-family: var(--font-text);
+}
+#page {
+  display: flex;
+  text-align: center;
+  gap:9rem;
+}
+aside {
+  background: #8e9aaf;
+  width: 377px;
+  min-height: 720px;
+}
+aside img {
+  margin: 0 auto;
+  margin: 3.2rem auto;
+}
+h1 {
+  color: var(--color-h1);
+  font-family: var(--font-h1);
+  font-weight: 400;
+  font-size: var(--fontsize-h1);
+  line-height: 3.4rem;
+  letter-spacing: 0.05em;
+  background: #cbc0d3;
+  width: 100%;
+  height: 7rem;
+  padding: 2rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.card-wrapper {
+  display: flex;
+  gap: 3.6rem;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  position: relative;
+  animation: topdown 1s;
+}
+p {
+  max-width: 30rem;
+  height: 26.2rem;
+  margin: 4.5rem 5rem;
+  font-size: var(--fontsize-body);
+  color: var(--color-p);
+  font-weight: 400;
+  line-height: 2rem;
+  align-items: center;
+  text-align: center;
+
+
+}
+.card img {
+  width: var(--img-size);
+}
+span {
+  position: absolute;
+  right: 1.6rem;
+  top: 1.6rem;
+
+  text-transform: uppercase;
+  padding: 0 2.3rem;
+  height: 3.5rem;
+  background: #feeafa;
+  border-radius: 2rem;
+  font-weight: 400;
+  line-height: 3.4rem;
+  /* identical to box height, or 170% */
+
+  letter-spacing: 0.05em;
+  font-family: var(--font-h1);
+  color: var(--color-span);
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
