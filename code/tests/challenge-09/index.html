@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 02 - JS</title>
+</head>
+
+<body>
+  <script>
+    const students = [
+      {
+        name: "Wender",
+        firstNote: 6,
+        secondNote: 7,
+      },
+      {
+        name: "Raphel",
+        firstNote: 4,
+        secondNote: 5,
+      },
+      {
+        name: "Kevin",
+        firstNote: 9,
+        secondNote: 8,
+      },
+      {
+        name: "Renan",
+        firstNote: 3,
+        secondNote: 4,
+      },
+      {
+        name: "Alex",
+        firstNote: 9,
+        secondNote: 8,
+      },
+    ];
+
+    const media = (n1, n2) => (n1 + n2) / 2
+    const showResult = (student) => {
+      return `
+        A média do(a) aluno(a) ${student.name} é ${media(student.firstNote, student.secondNote)}
+      `;
+    };
+    const aproved = (student) => {
+      return `Parabéns,  ${student.name}! Você foi aprovado(a) no concurso!
+      `;
+    };
+    const reproved = (student) => {
+      return `Não foi dessa vez ,  ${student.name}! Tente novamente!
+      `;
+
+    }
+
+
+    for (let student of students) {
+      let result = media(student.firstNote, student.secondNote)
+      let showResultMessage = showResult(student)
+      let aprovedMessage = aproved(student)
+      let reprovedMessage = reproved(student)
+      if (result > 6.4) {
+        alert(showResultMessage + aprovedMessage)
+      }
+      else {
+        alert(showResultMessage + reprovedMessage)
+      }
+    }
+
+
+  </script>
+
+</body>
+
+</html>
